@@ -54,7 +54,7 @@ export const experience = [
       "Supported dormitory operations through paperwork, technical coordination and student assistance.",
   },
   {
-    role: "Mentor & Corporate Communication Specialist",
+    role: "Corporate Communication Specialist",
     org: "EFEB Office",
     date: "Feb 2025 – Aug 2025",
     place: "İstanbul",
