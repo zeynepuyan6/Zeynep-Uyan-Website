@@ -10,6 +10,7 @@ type TimelineItem = {
   place?: string;
   blurb: string;
   logo?: string;
+  logoOffset?: string;
 };
 
 // ─── Main Section ────────────────────────────────────────
@@ -21,6 +22,7 @@ export function Timeline() {
     place: e.place,
     blurb: e.blurb,
     logo: (e as any).logo,
+    logoOffset: (e as any).logoOffset,
   }));
 
   const eduItems: TimelineItem[] = education.map((e) => ({
@@ -29,10 +31,11 @@ export function Timeline() {
     date: e.date,
     blurb: e.note,
     logo: (e as any).logo,
+    logoOffset: (e as any).logoOffset,
   }));
 
   return (
-    <section id="experience" className="relative bg-[#15616D] overflow-hidden py-24 lg:py-32">
+    <section id="experience" className="relative bg-[#001524] overflow-hidden py-24 lg:py-32">
       {/* Ambient glow */}
       <div
         className="absolute inset-0 pointer-events-none"
@@ -185,7 +188,7 @@ function TimelineCard({
                 src={item.logo}
                 alt={item.sub}
                 className="w-full h-full object-cover"
-                style={{ borderRadius: "50%" }}
+                style={{ borderRadius: "50%", objectPosition: item.logoOffset || "center center" }}
               />
             </motion.div>
           )}

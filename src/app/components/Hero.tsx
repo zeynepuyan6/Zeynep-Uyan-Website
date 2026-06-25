@@ -4,7 +4,7 @@ import { profile } from "../data";
 
 export function Hero() {
   return (
-    <section className="relative overflow-hidden bg-[#EDEDE9]">
+    <section className="relative overflow-hidden bg-[#FFECD1]">
       <div className="max-w-7xl mx-auto px-6 lg:px-10 pt-24 pb-28 lg:pt-32 lg:pb-36">
         <motion.div
           initial={{ opacity: 0, y: 20 }}
@@ -19,10 +19,12 @@ export function Hero() {
             className="mt-7 text-[#001524] leading-[1.05] max-w-4xl"
             style={{ fontFamily: "var(--font-display)", fontSize: "clamp(2.2rem, 5vw, 4rem)", fontWeight: 800, letterSpacing: "-0.02em" }}
           >
-            Hi, I'm <span className="text-[#FF7D00]">Zeynep.</span>
+            I design <span className="text-[#FF7D00]">visual identities</span><br />
+            that reflect the core values<br />
+            of small businesses.
           </h1>
           <p className="mt-6 text-[#001524]/70 max-w-xl leading-relaxed text-lg font-medium">
-            A Communication Designer bridging the gap between visual storytelling, digital design, and strategic marketing.
+            Crafting purposeful branding, editorial design, and photography — built with intention by {profile.name}.
           </p>
           <div className="mt-9 flex flex-wrap gap-3">
             <a

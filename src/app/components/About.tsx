@@ -32,7 +32,7 @@ export function About() {
           viewport={{ once: true }}
           transition={{ duration: 0.6 }}
         >
-          <span className="text-[#FF7D00] uppercase tracking-[0.3em] text-xs">About Me</span>
+          <span className="text-[#FF7D00] uppercase tracking-[0.3em] text-xs">About me</span>
         </motion.div>
 
         {/* Story Grid */}
@@ -50,14 +50,14 @@ export function About() {
               className="text-white"
               style={{ fontFamily: "var(--font-display)", fontSize: "clamp(2.5rem, 5vw, 3.8rem)", fontWeight: 800, letterSpacing: "-0.02em", lineHeight: 1.1 }}
             >
-              About <span className="text-[#FF7D00]">Me.</span>
+              Why I do<br /><span className="text-[#FF7D00]">this work.</span>
             </h2>
 
             <p className="mt-6 text-white/60 leading-relaxed">
-              I focus on creating impactful digital experiences through media design, branding, and professional photography. I partner with brands to craft intuitive design templates and strong visual identities that truly tell a story.
+              I grew up noticing how some brands felt trustworthy and others felt cheap — and realising the difference was rarely the product itself. It was the design. That realisation turned into an obsession.
             </p>
             <p className="mt-4 text-white/60 leading-relaxed">
-              Guided by strategic thinking and creative communication, my goal is always to deliver clean, intentional, and high-quality solutions that elevate your brand's presence.
+              Today, I'm a Communication & Design student at Özyeğin University, selected for both the McKinsey Forward Program and the Aspire Leaders Program. But before the programs and the degrees, there was just a girl who wanted the things she loved to look as good as they felt.
             </p>
 
             <div className="mt-8">

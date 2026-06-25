@@ -14,7 +14,7 @@ export function Skills() {
   const [hoveredCard, setHoveredCard] = useState<number | null>(null);
 
   return (
-    <section id="skills" className="relative py-24 lg:py-28 bg-[#EDEDE9]">
+    <section id="skills" className="relative py-24 lg:py-28 bg-[#FFECD1]">
       <div className="max-w-7xl mx-auto px-6 lg:px-10">
 
         {/* ── Header ── */}

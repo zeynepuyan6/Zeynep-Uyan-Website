@@ -27,38 +27,38 @@ export const tools = [
 ];
 
 export const experience = [
+    {
+    role: "McKinsey Forward Program",
+    org: "McKinsey & Company",
+    date: "Apr 2026 – Jun 2026",
+    place: "Online",
+    blurb:
+      "Selected for the McKinsey Forward Program — a rigorous professional development program equipping participants with problem-solving, leadership and communication frameworks.",
+    logo: "/assets/mckinsey_logo.jpeg",
+  },
   {
     role: "Social Media Member",
     org: "OzU Racing",
-    date: "Jul 2025 – Present",
+    date: "Jul 2025 – Feb 2026",
     place: "İstanbul",
     blurb:
       "Managing social media operations, producing digital marketing content and contributing to design projects that strengthen the team's public image across platforms.",
     logo: "/assets/ozu_logo.png",
   },
   {
-    role: "McKinsey Forward Program",
-    org: "McKinsey & Company",
-    date: "2025",
-    place: "Online",
-    blurb:
-      "Selected for the McKinsey Forward Program — a rigorous professional development program equipping participants with problem-solving, leadership and communication frameworks.",
-    logo: "/assets/mckinsey_logo.jpg",
-  },
-  {
     role: "Accommodation Services Officer",
     org: "Accommodation Office",
     date: "Jul 2025 – Aug 2025",
     place: "İstanbul",
-    blurb:
+ logo: "/assets/ozu_circle_logo.png",    blurb:
       "Supported dormitory operations through paperwork, technical coordination and student assistance.",
   },
   {
-    role: "Mentor & Corporate Communication Specialist",
+    role: "Corporate Communication Specialist",
     org: "EFEB Office",
     date: "Feb 2025 – Aug 2025",
     place: "İstanbul",
-    blurb:
+ logo: "/assets/ozu_circle_logo.png",    blurb:
       "Mentored EFEB scholars and facilitated university–student communication with a focus on equity and access.",
   },
 ];
@@ -66,7 +66,7 @@ export const experience = [
 export const education = [
   {
     school: "Özyeğin University",
-    degree: "B.A., Communication & Design — Faculty of Architecture",
+    degree: "B.A., Communication & Design",
     date: "2024 – 2028",
     note: "EFEB Scholar · Ranked 2201 in YKS (Verbal)",
     logo: "/assets/ozu_circle_logo.png",
@@ -83,6 +83,9 @@ export const education = [
     degree: "Science & Social Sciences Project School",
     date: "2021 – 2024",
     note: "Ranked 2nd in YKS Verbal · Diploma 93/100",
+        logo: "/assets/ihl_logo.jpeg",
+        logoOffset: "center calc(50% + 1.5px)",
+
   },
 ];
 
