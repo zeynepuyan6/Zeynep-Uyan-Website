@@ -19,7 +19,7 @@ export default function App() {
   return (
     <BrowserRouter>
       <ScrollToTop />
-      <div className="min-h-screen bg-[#FFECD1] text-[#001524]">
+      <div className="min-h-screen bg-[#EDEDE9] text-[#001524]">
         <Navbar />
         <Routes>
           <Route path="/" element={<Home />} />

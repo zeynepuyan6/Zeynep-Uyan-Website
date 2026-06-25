@@ -52,7 +52,7 @@ export function Navbar() {
   };
 
   return (
-    <header className="sticky top-0 z-50 backdrop-blur-xl bg-[#FFECD1]/95 border-b border-[#78290F]/20">
+    <header className="sticky top-0 z-50 backdrop-blur-xl bg-[#EDEDE9]/95 border-b border-[#78290F]/20">
       <nav className="max-w-7xl mx-auto px-6 lg:px-10 h-16 flex items-center justify-between">
         <Link to="/" className="flex items-center gap-2 group" onClick={(e) => handleNavClick(e as any, "/")}>
           <span className="grid place-items-center w-9 h-9 bg-[#001524] text-white text-xs tracking-widest">

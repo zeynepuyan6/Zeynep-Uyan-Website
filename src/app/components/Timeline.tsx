@@ -35,7 +35,7 @@ export function Timeline() {
   }));
 
   return (
-    <section id="experience" className="relative bg-[#001524] overflow-hidden py-24 lg:py-32">
+    <section id="experience" className="relative bg-[#15616D] overflow-hidden py-24 lg:py-32">
       {/* Ambient glow */}
       <div
         className="absolute inset-0 pointer-events-none"
