@@ -103,8 +103,8 @@ export const projects = [
     method: "Engineered the site using Antgravity IDE, wrote custom code for unique interactions, and leveraged Claude AI to debug errors at rapid speed.",
     growth: "Mastered terminal workflows and successfully bypassed build errors to deploy the final live product via Vercel — turning deployment friction into a repeatable launch process.",
     result: "A fully responsive, live website built in record time, demonstrating cross-disciplinary speed and technical resilience.",
-    img: "/assets/portfolio.jpeg",
-    coverImages: ["/assets/portfolio.jpeg", "/assets/portfolio2.jpeg", "/assets/portfolio3.jpeg"],
+    img: "/assets/portfolio3.jpeg",
+    coverImages: ["/assets/portfolio3.jpeg", "/assets/portfolio.jpeg", "/assets/portfolio2.jpeg"],
     color: "from-[#001524] to-[#FF7D00]",
   },
   {
