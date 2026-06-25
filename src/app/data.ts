@@ -91,6 +91,23 @@ export const education = [
 
 export const projects = [
   {
+    id: "personal-portfolio-web",
+    title: "Personal Portfolio Web Development",
+    tag: "Web Development · UI/UX",
+    year: "2026",
+    role: "Creative Technologist / UI/UX Designer & Developer",
+    blurb: "A full-stack portfolio taken from a raw Figma blueprint to custom code and live deployment — in just one week.",
+    overview: "A full-stack project designed and developed entirely by myself in just one week — taking this portfolio site from a raw Figma blueprint to custom code and live deployment.",
+    objective: "It proves I don't just design static layouts; I bring them to life. For any client, this project stands as concrete proof that I can independently execute and launch end-to-end digital web products.",
+    challenge: "Solving code bugs and cloud deployment failures while trying to perfectly match the creative Figma layout in a real-world IDE framework.",
+    method: "Engineered the site using Antgravity IDE, wrote custom code for unique interactions, and leveraged Claude AI to debug errors at rapid speed.",
+    growth: "Mastered terminal workflows and successfully bypassed build errors to deploy the final live product via Vercel — turning deployment friction into a repeatable launch process.",
+    result: "A fully responsive, live website built in record time, demonstrating cross-disciplinary speed and technical resilience.",
+    img: "/assets/portfolio.jpeg",
+    coverImages: ["/assets/portfolio.jpeg", "/assets/portfolio2.jpeg", "/assets/portfolio3.jpeg"],
+    color: "from-[#001524] to-[#FF7D00]",
+  },
+  {
     id: "agora-digital-journey",
     title: "A Digital Journey Through the Ancient Agora",
     tag: "UX Design · Experience",
