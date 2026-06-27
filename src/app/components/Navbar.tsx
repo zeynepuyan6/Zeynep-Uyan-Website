@@ -47,7 +47,7 @@ export function Navbar() {
       return;
     }
 
-    // Other routes (e.g. /projects) — just navigate, ScrollToTop handles scroll
+    // Other routes — just navigate, ScrollToTop handles scroll
     navigate(href);
   };
 

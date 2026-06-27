@@ -14,7 +14,7 @@ export function ProjectDetail() {
     return (
       <div className="max-w-7xl mx-auto px-6 lg:px-10 py-32 text-center">
         <p className="text-[#001524]/50 text-lg">Project not found.</p>
-        <Link to="/projects" className="mt-4 inline-flex items-center gap-2 text-[#FF7D00] font-semibold hover:underline">
+        <Link to="/#projects" className="mt-4 inline-flex items-center gap-2 text-[#FF7D00] font-semibold hover:underline">
           <ArrowLeft className="w-4 h-4" /> Back to all projects
         </Link>
       </div>
@@ -84,7 +84,7 @@ export function ProjectDetail() {
             transition={{ duration: 0.8, ease: [0.22, 1, 0.36, 1] }}
           >
             <Link
-              to="/projects"
+              to="/#projects"
               className="inline-flex items-center gap-2 text-white/40 hover:text-white text-sm mb-10 transition-colors group"
             >
               <ArrowLeft className="w-4 h-4 group-hover:-translate-x-1 transition-transform" />

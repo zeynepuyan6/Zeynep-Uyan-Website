@@ -13,7 +13,7 @@ export function Home() {
       <About />
       <Skills />
       <Timeline />
-      <ProjectsGrid limit={3} />
+      <ProjectsGrid />
       <Services />
       <Contact />
     </>
