@@ -4,7 +4,6 @@ export const profile = {
   tagline: "I design visual identities that reflect the core values of small businesses and individuals.",
   location: "İstanbul, Türkiye",
   email: "zeynep.uyan@ozu.edu.tr",
-  phone: "+90 544 529 50 69",
   linkedin: "https://www.linkedin.com/in/zeynep-uyan-ba53aa264/",
 };
 
