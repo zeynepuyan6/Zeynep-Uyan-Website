@@ -1,4 +1,4 @@
-import { Mail, Phone, MapPin } from "lucide-react";
+import { Mail, MapPin } from "lucide-react";
 import { profile } from "../data";
 
 export function Footer() {
@@ -17,7 +17,6 @@ export function Footer() {
         <div className="text-sm text-white/70 space-y-2">
           <h4 className="text-white mb-3 uppercase tracking-widest text-xs">Get in touch</h4>
           <p className="flex items-center gap-2"><Mail className="w-4 h-4 text-[#FF7D00]" /> {profile.email}</p>
-          <p className="flex items-center gap-2"><Phone className="w-4 h-4 text-[#FF7D00]" /> {profile.phone}</p>
           <p className="flex items-center gap-2"><MapPin className="w-4 h-4 text-[#FF7D00]" /> {profile.location}</p>
         </div>
         <div className="text-sm text-white/70">
