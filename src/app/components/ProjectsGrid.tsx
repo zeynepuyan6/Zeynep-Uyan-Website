@@ -3,8 +3,8 @@ import { ArrowUpRight } from "lucide-react";
 import { Link } from "react-router";
 import { projects } from "../data";
 
-export function ProjectsGrid({ limit, showHeader = true }: { limit?: number; showHeader?: boolean }) {
-  const list = limit ? projects.slice(0, limit) : projects;
+export function ProjectsGrid({ showHeader = true }: { showHeader?: boolean }) {
+  const list = projects;
 
   return (
     <section id="projects" className="relative bg-[#001524] py-24 lg:py-32 overflow-hidden">
@@ -33,18 +33,9 @@ export function ProjectsGrid({ limit, showHeader = true }: { limit?: number; sho
                 Selected work.
               </h2>
               <p className="mt-3 text-white/40 text-sm max-w-sm">
-                3 case studies. Full process, real results.
+                4 case studies. Full process, real results.
               </p>
             </div>
-            {limit && (
-              <Link
-                to="/projects"
-                className="inline-flex items-center gap-2 text-white border border-white/20 px-5 py-2.5 text-sm hover:bg-white hover:text-[#001524] transition-all group"
-              >
-                All case studies
-                <ArrowUpRight className="w-4 h-4 group-hover:translate-x-0.5 group-hover:-translate-y-0.5 transition-transform" />
-              </Link>
-            )}
           </motion.div>
         )}
 
@@ -75,7 +66,7 @@ function ProjectCard({ project: p, index: i }: { project: typeof projects[0]; in
         }}
       >
         {/* Full card image as background */}
-        <div className="relative h-[340px] md:h-[420px] overflow-hidden bg-[#0a1a28]">
+        <div className="relative h-[400px] md:h-[420px] overflow-hidden bg-[#0a1a28]">
           <img
             src={p.img}
             alt={p.title}
@@ -109,7 +100,7 @@ function ProjectCard({ project: p, index: i }: { project: typeof projects[0]; in
           </div>
 
           {/* Content */}
-          <div className="absolute inset-0 flex flex-col justify-between p-8 md:p-10">
+          <div className="absolute inset-0 flex flex-col justify-between p-6 pb-8 md:p-10">
             {/* Top: tag + year */}
             <div className="flex items-center justify-between">
               <div className="flex items-center gap-3">

@@ -26,7 +26,7 @@ export function Hero() {
           </p>
           <div className="mt-9 flex flex-wrap gap-3">
             <a
-              href="/projects"
+              href="/#projects"
               className="inline-flex items-center gap-2 px-6 py-3 bg-[#001524] text-white hover:bg-[#FF7D00] hover:text-[#001524] transition-colors"
             >
               View my work <ArrowRight className="w-4 h-4" />
